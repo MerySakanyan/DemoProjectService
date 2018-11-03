@@ -33,10 +33,7 @@ public class UserManagerImpl implements UserManager {
         }
     }
 
-    @Override
-    public void updateUser(String email) {
-        userRepository.updateUser(email);
-    }
+
 
 
 }
